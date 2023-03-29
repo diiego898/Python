@@ -37,7 +37,7 @@ def number_of_great_lakes():
     print(5)
 x = number_of_great_lakes()
 print(x)
-#Respuesta: 
+#Respuesta: 5 porque se invoca number_of_great_lakes
 
 #----------------------------------------------------------------------
 
@@ -45,6 +45,7 @@ print(x)
 def add(b,c):
     print(b+c)
 print(add(1,2) + add(2,3))
+#Respuesta: El print numero 1 dara 3 y el 2 5 ya que se suman b c
 
 #----------------------------------------------------------------------
 
@@ -52,6 +53,7 @@ print(add(1,2) + add(2,3))
 def concatenate(b,c):
     return str(b)+str(c)
 print(concatenate(2,5))
+#Respuesta: 5 la respuesta de esta funcion es 25 
 
 #-----------------------------------------------------------------------
 
@@ -65,6 +67,7 @@ def number_of_oceans_or_fingers_or_continents():
         return 10
     return 7
 print(number_of_oceans_or_fingers_or_continents())
+#Respuesta: Se devuelve a 10 ya que al imprimir b es mayor que 10
 
 #------------------------------------------------------------------------
 
@@ -78,6 +81,7 @@ def number_of_days_in_a_week_silicon_or_triangle_sides(b,c):
 print(number_of_days_in_a_week_silicon_or_triangle_sides(2,3))
 print(number_of_days_in_a_week_silicon_or_triangle_sides(5,3))
 print(number_of_days_in_a_week_silicon_or_triangle_sides(2,3) + number_of_days_in_a_week_silicon_or_triangle_sides(5,3))
+#Respuesta:Dara multiplos de 7 hasta 21
 
 #----------------------------------------------------------------------
 
@@ -86,6 +90,7 @@ def addition(b,c):
     return b+c
     return 10
 print(addition(3,5))
+#Respuesta: Esto dara 8 porque b + c se suman
 
 #----------------------------------------------------------------------
 
@@ -98,6 +103,7 @@ def foobar():
 print(b)
 foobar()
 print(b)
+#Respuesta: Esto dara 500,500 y se retornara a 300 para luego dar 500 nuevamente
 
 #-----------------------------------------------------------------------
 
@@ -111,6 +117,7 @@ def foobar():
 print(b)
 foobar()
 print(b)
+#Respuesta: Esto dara 500,500 y se retornara a 300 para luego dar 500 nuevamente
 
 #------------------------------------------------------------------------
 
@@ -124,6 +131,7 @@ def foobar():
 print(b)
 b=foobar()
 print(b)
+#Respuesta: Dara 500,500 y luego se va a la nueva funcion que dara 300,300
 
 #-------------------------------------------------------------------------
 
@@ -135,10 +143,11 @@ def foo():
 def bar():
     print(3)
 foo()
+#Respuesta: Declarara todos los print dando 1,3,2
 
 #--------------------------------------------------------------------------
 
-#15
+#15   x
 def foo():
     print(1)
     x = bar()
@@ -149,3 +158,4 @@ def bar():
     return 5
 y = foo()
 print(y)
+#Respuesta: Dara todas las funciones 1,3,5 y se retornara a 10
