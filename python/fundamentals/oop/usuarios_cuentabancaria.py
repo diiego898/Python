@@ -58,3 +58,4 @@ adrien = User("Adrien")
 
 adrien.account['checking'].deposito(100)
 adrien.display_user_balance()
+
