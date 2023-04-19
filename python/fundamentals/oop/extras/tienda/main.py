@@ -12,4 +12,4 @@ tienda1.add_producto(producto2)
 tienda1.add_producto(producto3)
 tienda1.add_producto(producto4)
 
-tienda1.Print_info()        
+tienda1.Print_info()
