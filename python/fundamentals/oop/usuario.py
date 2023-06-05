@@ -23,4 +23,4 @@ print("el usuario",guido.name,"tiene en su cuenta",guido.balance_cuenta)
 guido.hacer_giro(150)
 print("el usuario",guido.name,"desminuyo su saldo a",guido.balance_cuenta)
 print("el usuario",diego.name,"tiene en su cuenta",diego.balance_cuenta)
-
+ 
